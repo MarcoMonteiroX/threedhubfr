@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'threedhub-production.up.railway.app:4000',
+    baseURL: 'threedhub-production.up.railway.app',
     headers: { 'Content-Type': 'application/json' },
 });
 
